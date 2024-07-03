@@ -1,0 +1,78 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 10px;
+
+  }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #34014b;
+    color: #419da3;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    
+    font-size: 36px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000a8;
+    box-shadow: 0px 0px 10px rgb(42, 1, 58);
+}
+
+.review {
+    margin-bottom: 20px;
+    border: 1px solid #4f405e85;
+    padding: 20px;
+    background-color: #bebebe98;
+}
+
+.review h2 {
+    font-size: 24px;
+}
+
+.review p {
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.rating {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.stars {
+    color: #fdd835;
+}
+
+.average {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+img{
+    border-radius: 50%;
+    text-align: left;
+}
